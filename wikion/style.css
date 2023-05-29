@@ -1,0 +1,143 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar h1 a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.search-form {
+  display: flex;
+}
+
+.search-input {
+  padding: 8px;
+  border-radius: 5px 0 0 5px;
+  border: none;
+  width: 300px;
+}
+
+.search-button,
+.add-article-button {
+  padding: 8px 15px;
+  background-color: #f60;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover,
+.add-article-button:hover {
+  background-color: #f90;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.sidebar {
+  flex-basis: 20%;
+  background-color: #f60;
+  color: #fff;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-content {
+  flex-basis: 80%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.articles h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.articles ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.articles li {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  transition: box-shadow 0.3s ease;
+}
+
+.articles li:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.articles li h3 {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.articles li p {
+  margin-top: 0;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+.signup-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.signup-button:hover {
+    background-color: darkorange;
+}
